@@ -22,4 +22,4 @@ jobs:
       run: pip install -r requirements.txt
 
     - name: Run conversion
-      run: python program.py pathFile1.x pathFile2.y
+      run: python program.py input.xml output.json
